@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+@IMPORT "common.css";
+.board-list-tab {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.board-list-tab>tr {
+	height: 30px;
+}
+
+#board-write {
+	text-align: center;
+}
+
+.margin-0>th {
+	text-align: center;
+}
+
+.margin-0>td {
+	text-align: center;
+}

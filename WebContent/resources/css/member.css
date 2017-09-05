@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+@IMPORT "common.css";
+
+#gms-container {
+	width: 90%;
+	height: 90%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.member-table-menu:first-child {
+	border: none;
+}
+
+.member-table-menu {
+	border: solid 1px hotpink;
+}
+
+.member-table-menu>th {
+	background-color: #ccc;
+	text-align: center;
+}
+
+#index-tab {
+	width: 80%;
+	border-collapse: collapse;
+	margin: 50px auto;
+	text-align: center;
+}
+.index-ul {
+	width: 300px;
+	list-style-type: none;
+}
+
+.index-ul>li {
+	border: 1px solid black;
+	height: 40px;
+	font-size: 30px;
+}
+
+#main-bar {
+	margin-top: 50px;
+	
+}
+
+#main-bar>th {
+	width: 30%;
+	text-align: center;
+	border: 1px solid black;
+	text-decoration: none;
+}
+
+.gms-imgsize {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.gms-tex-sty {
+	color:blue; font-weight: bold; font-size: 30px;
+}
+
+.gms-button-st {
+	width: 170px; height: 60px;
+}
+
+.gms-idtex {
+	width: 168px; display: inline-block;
+	color:blue; font-weight: bold; font-size: 30px;
+}
+
+.gms-button-st {
+	width: 80px;
+	height: 25px;
+}
+
+#board-write {
+	text-align: center;
+}
+
+.main-list>td {
+	padding-left: 40px;
+}
+
+#member-table-main {
+	width: 100%;
+	height: 100%;
+}
+
+.member_detail {
+	height: 100%;
+	width: 100%;
+}
+
+.member_detail_tab {
+	height: 20px;
+	width: 100%;
+}
+
+.member_detail_tab>td {
+	border: solid 1px #ccc;
+}
+
+.user-box-container {
+	position: relative;
+	width: 100%;
+}
+
+.user-box {
+	position: absolute;
+	right: 50px;
+	top: 15px;
+	color: white;
+}
+
+#logout {
+	cursor: pointer;
+}
